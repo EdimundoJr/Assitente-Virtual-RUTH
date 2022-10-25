@@ -1,0 +1,31 @@
+{
+    "nome": "ruth",
+    "acoes": [
+        {
+            "nome": "calcule",
+            "operacoes": [
+                "+",
+                "-",
+                "x",
+                "mais",
+                "menos",
+                "vezes",
+                "dividido"
+            ]
+        },{
+            "nome": "número",
+            "operacoes": [
+                "maior",
+                "menor"               
+            ]
+        },{
+            "nome": "numeral",
+            "operacoes": [
+                "primo",
+                "par",
+                "ímpar"
+            ]
+        }
+        
+    ]
+}
