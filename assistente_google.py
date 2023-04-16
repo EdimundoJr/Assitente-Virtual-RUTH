@@ -36,7 +36,7 @@ def escutar_comando():
     with sr.Microphone() as fonte_audio:
         reconhecedor.adjust_for_ambient_noise(fonte_audio)
 
-        print("Olá, sou a Ruth! Estou aqui pra poder ajuda-lo em algum cálculo simples...")
+        print("Olá, sou a Ruth! Estou aqui pra poder ajudá-lo em algum cálculo simples...")
         print("Estou te ouvindo, pode fazer sua pergunta...")
         fala = reconhecedor.listen(fonte_audio, timeout=5, phrase_time_limit=5)
         try:
